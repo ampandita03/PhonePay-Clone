@@ -1,0 +1,377 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-spacing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+img{
+    height: 66px;
+    width: 155px;
+    margin-top: 4px;
+    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar{
+    height: 76px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.navbar_items{
+    margin-left: 50px;
+    margin-top: 11px;   
+}
+
+.navbar_items a{  
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+a:hover{
+        color: blueviolet;
+}
+
+.banner{
+    display:flex ;
+    height: 400px;
+    background-size: cover;
+
+}
+
+.banner img{
+    height: 500px;
+    width: 250%;
+    margin-left: -100px;
+}
+
+.banner_text{
+    display: flex;
+    position:absolute;
+    font-size: 40px;
+    color: #5f1f9c;
+    margin-top: 60px;
+    margin-left: 150px;
+ 
+}
+
+.banner_text h1{
+    margin-top: -17px;
+    margin-left: 20px;
+}  
+.banner_text p{
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #c7bed8;
+    text-decoration: line-through;
+
+}
+
+.banner_text h3{
+    margin:16px;
+     margin-top: 30px;
+    margin-left: -310px;
+    font-size: 50px;
+}
+
+.banner_text h6{
+    display: flex ;
+    margin-top: 230px;
+    margin-left: -685px;
+    font-weight: lighter;
+}
+button{
+    color:#FFFFFF;
+    background-color: #5f1f9c;
+    height: 70px;
+    width: 270px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: -470px;
+    cursor: pointer;
+    
+}
+.box_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    position: relative;
+}
+
+.box1 {
+    position: relative;
+    height: 290px;
+    width: 357px;
+    margin-left: 20px;
+    border: 1px solid #979797;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.box1IN {
+    background-image: url("Insurance_PP.png");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 100px; 
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #E8FCFF;
+    height: 200px;
+    width: 357px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+.box1 h1{
+    color: #361968;
+    font-size: 30px;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+.box1 h1 span{
+    color: #6739b7;
+    font-size: 39px;
+    margin-left: 110px;
+}
+
+.box2 {
+    position: relative;
+    height: 290px;
+    width: 357px;
+    margin-left: 20px;
+    border: 1px solid #979797;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+.box2IN {
+    background-image: url("Invest_PP.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 220px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 50px; 
+}
+.circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color:#FFF7F2;
+    height: 200px;
+    width: 357px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+.box2 h1{
+    color: #361968;
+    font-size: 30px;
+    margin-top: 220px;
+    margin-left: 30px;
+}
+.box2 h1 span{
+    color: #6739b7;
+    font-size: 39px;
+    margin-left: 80px;
+}
+
+
+.box3 {
+    position: relative;
+    height: 290px;
+    width: 357px;
+    margin-left: 20px;
+    border: 1px solid #979797;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+.box3IN {
+    background-image: url("Money_PP.png");
+    background-size: cover;
+    height: 150px;
+    width: 280px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px; 
+}
+.circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color:#F2F9F5;
+    height: 200px;
+    width: 357px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+.box3 h1{
+    color: #361968;
+    font-size: 30px;
+    margin-top: 220px;
+    margin-left: 30px;
+}
+.box3 h1 span{
+    color: #6739b7;
+    font-size: 39px;
+    margin-left: 180px;
+}
+.midContainer{
+    
+    background-image: url("Mid_PP.png");
+    background-size: cover;
+    height: 444px;
+    width: 100%;
+
+}
+.midTextContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 110px;
+
+}
+.midText1{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 250px;
+   
+}
+
+.midText1 p{
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #dcd3ff;
+}
+.midText1 p span{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.midText2{
+    display: flex;
+    justify-content: center;
+    margin-left: -300px;
+    margin-bottom: 250px;
+   
+}
+
+.midText2 p{
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #dcd3ff;
+}
+.midText2 p span{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.midText3{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: -300px;
+    margin-bottom: 250px;
+   
+}
+
+.midText3 p{
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #dcd3ff;
+}
+.midText3 p span{
+    color: white;
+    font-weight: bolder; 
+    font-size: 40px;
+}
+.midText4{
+    display: flex;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #D4CBFF;
+    margin-top: 100px;
+    margin-left: 450px;
+    height: 100px;
+}
+
+.midContainer a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding:14px;
+    justify-content: center;
+    font-weight: bold;
+    width: 173px;
+    text-align: center;
+    border: 2px solid #4cdeff;
+    margin-top: -110px;
+    margin-left: 1230px;
+    border-radius: 33px;
+}
+
+.footerContainer{
+    background-color: #ffffff;
+    color: white;
+    height: 390px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.footerContainer img{
+    margin-left: 50px;
+}
+.footercontainer ul{
+    display: flex;
+}
+.footerContainer ul p{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footerContainer ul p:hover{
+    color: #6739b7;
+}
+
+.footerContainer ul a{
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: black;
+    font-weight: lighter;
+}
